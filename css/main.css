@@ -1,0 +1,113 @@
+html {
+  box-sizing: border-box;
+  background-color: #f0eee8;
+  line-height: 1.5;
+  display: inline-block;
+  margin: 0 0 1rem;
+  color: #512200;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.link-card {
+  display: block;
+  border: 3px solid #9a816d;
+  border-radius: 8px;
+}
+
+.link-card h2 {
+  font-size: 1.5rem;
+  font-family: Dosis, sans-serif;
+  text-align: left;
+  font-weight: bold;
+  margin: 0 0 1rem;
+}
+
+.link-card li{
+  display: inline-block;
+  margin: 0 0 1rem;
+  max-width: 20em;
+  padding: 1rem;
+  background-color: #dcd4cd;
+  border: 2px solid #785438;
+  border-radius: 8px;
+  text-align: left;
+  font-family: Georgia;
+}
+
+.link-card dl {
+  text-align: left;
+  border-top: 2px;
+  border-bottom: 2px;
+  color: #9a816d;
+  border-style: solid;
+  border-width: 2px;
+  border-left: none;
+  border-right: none;
+  overflow: hidden;
+  font-size: .875rem;
+  padding: 1rem;
+  padding-left: 0;
+}
+
+a {
+  display: block;
+  padding: 1rem;
+  background-color: #dcd4cd;
+  border-radius: 3px;
+  border-width: 3px;
+  color: #512200;
+  text-decoration: none;
+  font-family: Georgia;
+  font-size: 1.125rem;
+}
+
+.link-card dd {
+  text-align: left;
+  display: inline-block;
+  font-style: italic;
+  width: 45%;
+  color: #512200;
+  margin: 0;
+}
+
+.link-card dt {
+  text-align: center;
+  display: inline-block;
+  width: 45%;
+  color:#512200;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+  color: #512200;
+}
+
+.btn {
+  display: inline-block;
+  padding: .4em .75em .5em;
+  background-color: #785439;
+  border-radius: 8px;
+  border-width: 3px;
+  color: #fff;
+  text-decoration: none;
+  font-family: Dosis;
+  font-size: 1.125rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #512200;
+}
+
+.learnmore {
+  text-align: center;
+}
+
+p {
+  font-size: 1rem;
+  margin: 0;
+}
