@@ -25,7 +25,7 @@ html {
   margin: 0 0 1rem;
 }
 
-.link-card li{
+.link-card li {
   display: inline-block;
   margin: 0 0 1rem;
   max-width: 20em;
@@ -77,7 +77,7 @@ a {
   text-align: center;
   display: inline-block;
   width: 45%;
-  color:#512200;
+  color: #512200;
 }
 
 .link-card:hover {
